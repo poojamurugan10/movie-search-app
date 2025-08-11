@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { loadFavorites, saveFavorites } from "../Utils/Storage";
+import { loadFavorites, saveFavorites } from "../Utils/Storage.js";
 import MovieList from '../Components/MovieList'
 
 export default function Favorites() {

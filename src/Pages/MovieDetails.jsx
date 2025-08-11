@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getMovieById } from '../api'
-import { loadFavorites, saveFavorites } from '../utils/storage'
+import { loadFavorites, saveFavorites } from '../Utils/Storage.js'
 
 export default function MovieDetails() {
   const { id } = useParams()
