@@ -4,7 +4,7 @@ import TypeFilter from '../Components/TypeFilter'
 import MovieList from '../Components/MovieList'
 import Pagination from '../Components/Pagination'
 import { searchMovies } from '../api'
-import { loadFavorites, saveFavorites } from '../utils/storage'
+import { loadFavorites, saveFavorites } from '../Utils/Storage.js'
 
 export default function SearchPage() {
   const [query, setQuery] = useState('')
